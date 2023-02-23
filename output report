@@ -1,6 +1,10 @@
-Tanishque_Agrawal_Resume.pdf in this resume it is detecting every thing the Parser is working well.
+Tanishque_Agrawal_Resume.pdf- in this resume it is detecting every thing the Parser is working well.
 
-but in res3.pdf it is not detecting right name and right email as the regex I am using decting
-k  which is first letter of mail id (wrong email which is ref email in resume) it is detecting as it is coming first but original email is starting with p.
+ res3.pdf- it does not detect the correct name and email address this is because the regex I'm using has some limitations
+The first letter of the mail id, k is detected as coming first as k comes before p(the incorrect email, which is the reference email in a resume),
+but the original email begins with p. 
 
-resume2.pdf email it is showing is _c@mt.iitr.ac.in but right one is yash_c@mt.iitr.ac.in due to regex I am using right now it requires improvement.
+resume2.pdf-The email that is displayed is _c@mt.iitr.ac.in, but the correct one is yash_c@mt.iitr.ac.in. 
+            This is due to the regex I am currently using, which requires improvement.
+
+resume.pdf- With this file name, number is showing null as it is not present in this resume, so it is working right with it.
