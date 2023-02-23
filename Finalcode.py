@@ -120,5 +120,5 @@ def parse_resume(resume_file):
     }
     return json.dumps(parsed_data)
 
-parsed_resume = parse_resume('/content/resume.pdf')
+parsed_resume = parse_resume('/content/Tanishque_Agrawal_Resume.pdf')
 print(parsed_resume)
